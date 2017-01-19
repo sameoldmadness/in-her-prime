@@ -1,6 +1,6 @@
 fun nthPrime(n: Int): Int {
 	var i = 0
-    var j = 2
+	var j = 2
 	while (i < n) {
 		if (j.isPrime()) {
 			i += 1
@@ -12,13 +12,13 @@ fun nthPrime(n: Int): Int {
 
 fun Int.isPrime(): Boolean {
 	for (i in 2 until this) {
-        if (this % i == 0) {
-            return false
-        }
-    }
+		if (this % i == 0) {
+			return false
+		}
+	}
 	return true
 }
 
 fun main(args: Array<String>) {
-    print(nthPrime(10000))
+	print(nthPrime(10000))
 }
