@@ -8,7 +8,7 @@ Brutforce `nth prime` implementations in various languages.
 ❯ swift naïve.swift
 104729
 
-~/workspace/in-her-prime 40s
+~/workspace/in-her-prime 8s
 ❯ g++ naïve.cpp && ./a.out
 104729
 
