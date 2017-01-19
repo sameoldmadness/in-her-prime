@@ -6,9 +6,9 @@ function nthPrime(n, j = 2) {
 
 function isPrime(x) {
 	if (x < 2) return false
-	for (let i = x - 1; i >= 2; i -= 1) 
+	for (let i = x - 1; i >= 2; i -= 1)
 		if (x % i === 0) return false
 	return true
 }
 
-console.log(nthPrime(10 ** 4))
+console.log(nthPrime(10000))
