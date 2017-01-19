@@ -24,5 +24,5 @@ int nthPrime(int n) {
 }
 
 int main() {
-    cout << nthPrime(10000) << endl;
+    cout << nthPrime(10000);
 }
