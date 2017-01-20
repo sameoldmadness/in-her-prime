@@ -15,7 +15,7 @@ kotlin      2.118s
 c#          2.502s
 js          3.575s
 c++         3.678s
-swift       7.860s
+swift       3.746s
 php        17.310s
 haskel  1m 50.875s
 python  1m 51.814s

@@ -8,7 +8,7 @@
     "run:java": "cd code && javac naïve.java && time java Naïve && rm Naïve.class",
     "run:js": "cd code && time node naïve.js",
     "run:kotlin": "cd code && kotlinc naïve.kt -include-runtime -d naïve.jar && time java -jar naïve.jar && rm naïve.jar",
-    "run:swift": "cd code && swiftc -O naïve.swift && time ./naïve",
+    "run:swift": "cd code && swiftc -O naïve.swift && time ./naïve && rm naïve",
     "run:go": "cd code && go build naïve.go && time ./naïve && rm naïve",
     "run:haskel": "cd code && ghc naïve.hs && time ./naïve && rm naïve naïve.hi naïve.o",
     "run:python": "cd code && time python naïve.py",
