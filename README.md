@@ -47,4 +47,11 @@ ghc naïve.hs && time ./naïve
 real  1m29.003s
 user  1m22.668s
 sys 0m1.002s
+
+time python naïve.py
+104723
+
+real  1m49.280s
+user  1m44.513s
+sys 0m2.293s
 ``
