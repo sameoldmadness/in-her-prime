@@ -10,4 +10,4 @@ function isPrime(x) {
 	return true
 }
 
-console.log(nthPrime(10000))
+console.log(nthPrime(10 ** 4))
