@@ -9,13 +9,13 @@ Scores
 ------
 
 ```bash
-c++ 0m3.678s
-c# 0m2.502s
-js 0m3.575s
+java   0m1.741s
+go     0m1.893s
 kotlin 0m2.118s
-swift 0m7.860s
-go 0m1.893s
+c#     0m2.502s
+js     0m3.575s
+c++    0m3.678s
+swift  0m7.860s
 haskel 1m50.875s
 python 1m51.814s
 ```
-
