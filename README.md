@@ -16,6 +16,7 @@ c#     0m2.502s
 js     0m3.575s
 c++    0m3.678s
 swift  0m7.860s
+php    0m17.310s
 haskel 1m50.875s
 python 1m51.814s
 ```
