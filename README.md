@@ -34,10 +34,31 @@ real	0m1.871s
 user	0m1.841s
 sys	0m0.030s
 
-$ time swift naïve.swift
+$ swiftc -O naïve.swift && time ./naïve
 104729
 
-real	0m8.245s
+real	0m5.17s
 user	0m8.108s
 sys	0m0.047s
-```
+
+go build naïve.go && time ./naïve
+104729
+
+real  0m5.386s
+user  0m5.300s
+sys 0m0.029s
+
+ghc naïve.hs && time ./naïve
+104729
+
+real  1m29.003s
+user  1m22.668s
+sys 0m1.002s
+
+time python naïve.py
+104723
+
+real  1m49.280s
+user  1m44.513s
+sys 0m2.293s
+``
