@@ -14,7 +14,7 @@ c# 0m2.502s
 js 0m3.575s
 kotlin 0m2.118s
 swift 0m7.860s
-go 0m7.317s
+go 0m1.893s
 haskel 1m50.875s
 python 1m51.814s
 ```
