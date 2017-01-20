@@ -27,10 +27,10 @@ real	0m1.871s
 user	0m1.841s
 sys	0m0.030s
 
-time swift naïve.swift
+swiftc -O naïve.swift && time ./naïve
 104729
 
-real	0m8.245s
+real	0m5.17s
 user	0m8.108s
 sys	0m0.047s
 ```
