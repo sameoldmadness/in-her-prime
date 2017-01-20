@@ -15,4 +15,5 @@ def is_prime(n):
       return False
   return True
 
+
 print get_nth_prime(10000)
