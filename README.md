@@ -3,7 +3,7 @@ Brutforce `nth prime` implementations in various languages.
 Docs
 ----
 
-Use `npm run run` to run all snippets.
+Use `npm start` to run all snippets.
 
 Scores
 ------

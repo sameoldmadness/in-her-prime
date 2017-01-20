@@ -2,7 +2,7 @@
   "name": "in-her-prime",
   "private": true,
   "scripts": {
-    "run": "npm run run:c++ && npm run run:c# && npm run run:java && npm run run:js && npm run run:kotlin && npm run run:swift && npm run run:go && npm run run:haskel && npm run run:python",
+    "start": "npm run run:c++ && npm run run:c# && npm run run:java && npm run run:js && npm run run:kotlin && npm run run:swift && npm run run:go && npm run run:haskel && npm run run:python",
     "run:c++": "cd code && g++ naïve.cpp && time ./a.out && rm a.out",
     "run:c#": "cd code && mcs naïve.cs && time mono naïve.exe && rm naïve.exe",
     "run:java": "cd code && javac naïve.java && time java Naïve && rm Naïve.class",
