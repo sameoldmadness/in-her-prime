@@ -33,4 +33,18 @@ time swift naïve.swift
 real	0m8.245s
 user	0m8.108s
 sys	0m0.047s
-```
+
+go build naïve.go && time ./naïve
+104729
+
+real  0m5.386s
+user  0m5.300s
+sys 0m0.029s
+
+ghc naïve.hs && time ./naïve
+104729
+
+real  1m29.003s
+user  1m22.668s
+sys 0m1.002s
+``
