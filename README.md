@@ -8,15 +8,15 @@ Use `npm start` to run all snippets.
 Scores
 ------
 
-```bash
-java   0m1.741s
-go     0m1.893s
-kotlin 0m2.118s
-c#     0m2.502s
-js     0m3.575s
-c++    0m3.678s
-swift  0m7.860s
-php    0m17.310s
-haskel 1m50.875s
-python 1m51.814s
+```
+java        1.741s
+go          1.893s
+kotlin      2.118s
+c#          2.502s
+js          3.575s
+c++         3.678s
+swift       7.860s
+php        17.310s
+haskel  1m 50.875s
+python  1m 51.814s
 ```
