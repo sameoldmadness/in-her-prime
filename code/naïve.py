@@ -1,11 +1,10 @@
 def get_nth_prime(n):
   j, i = 2, 0
   while True:
-    if i == n - 1:
-      return j - 1
-
     if is_prime(j):
       i += 1
+    if i >= n:
+      return j
     j += 1
 
 
