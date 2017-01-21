@@ -12,6 +12,7 @@
     "run:go": "cd code && go build naïve.go && time ./naïve && rm naïve",
     "run:haskel": "cd code && ghc naïve.hs && time ./naïve && rm naïve naïve.hi naïve.o",
     "run:python": "cd code && time python naïve.py",
+    "run:python-pypy": "cd code && time pypy naïve.py",
     "run:php": "cd code && time php naïve.php",
     "run:php-hhvm": "cd code && time hhvm naïve.php"
   }
