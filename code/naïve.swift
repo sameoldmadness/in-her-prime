@@ -1,5 +1,6 @@
 extension Int32 {
     var prime: Bool {
+        guard self >= 2 else { return false }
         for i in 2 ..< self {
             if self % i == 0 {
                 return false
@@ -9,15 +10,25 @@ extension Int32 {
     }
 }
 
-func nthPrime(_ n: Int32) -> Int32 {
-    var i: Int32 = 0, j: Int32 = 2
-    while i < n {
-        if j.prime {
-            i += 1
+struct PrimeSequence: Sequence {
+    func makeIterator() -> AnyIterator<Int32> {
+        var n: Int32 = 0
+
+        return AnyIterator {
+            repeat {
+                n += 1
+                if n.prime {
+                    return n
+                }
+            } while true
         }
-        j += 1
     }
-    return j - 1
+
+    func nth(_ position: Int32) -> Int32 {
+        return prefix(Int(position)).suffix(1).map{ $0 }[0]
+    }
 }
 
-print(nthPrime(10000))
+let primes = PrimeSequence()
+
+print(primes.nth(10000))

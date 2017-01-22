@@ -11,11 +11,11 @@ Scores
 ```
 java           1.741s
 go             1.893s
+swift          1.946s
 kotlin         2.118s
 c#             2.502s
 js             3.575s
 c++            3.678s
-swift          3.746s
 php (hhvm)     6.642s
 python (pypy)  6.855s
 php           17.310s
